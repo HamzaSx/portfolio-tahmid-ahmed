@@ -12,9 +12,6 @@ module.exports = {
         bg1: "#101010",
         bg2: "#191919"
       },
-      backgroundImage: {
-        heroImg: "url('../public/background.jpg')"
-      },
       boxShadow: {
         btn: "0px 0px 5px #000, 0px 0px 15px #858585"
       },

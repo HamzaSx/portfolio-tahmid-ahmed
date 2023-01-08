@@ -1,10 +1,12 @@
+import Image from "next/image";
 import React from "react";
 
 const Haro = () => {
   return (
     <div
       id='Home'
-      className='w-full h-[100vh] leading-tight bg-cover bg-heroImg bg-center flex items-center px-5 xs:px-10 lap:px-28'>
+      className='w-full overflow-hidden relative h-[100vh] leading-tight flex items-center px-5 xs:px-10 lap:px-28'>
+        <Image src={"/background.jpg"} fill className="object-cover -z-10" alt="background" />
       <div className='w-full relative sm:pt-[170px] font-bold text-center flex flex-col items-center sm:items-start'>
         <div className='absolute w-full h-full bg-black opacity-50 blur-xl sm:hidden' />
         <h6 className='xs:text-2xl text-lg tracking-[2px] text-paragraph relative'>

@@ -18,7 +18,7 @@ const Navbar = () => {
   const initalItems = { y: 8, opacity: 0 };
 
   return (
-    <nav className='absolute top-0 flex items-center justify-between w-full font-bold'>
+    <nav className='absolute top-0 z-50 flex items-center justify-between w-full font-bold'>
       <div className='items-center justify-between hidden w-full px-5 py-10 sm:flex xs:px-10 lap:px-28'>
         <h2 className='text-4xl select-none cursor-default font-bold tracking-[1px]'>
           Portfo
